@@ -1,0 +1,21 @@
+body, html, #root, .app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+

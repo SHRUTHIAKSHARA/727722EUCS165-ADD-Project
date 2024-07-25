@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://img.freepik.com/free-vector/realistic-design-technology-background_23-2148426705.jpg?size=626&ext=jpg&ga=GA1.1.2032069258.1721885121&semt=ais_user');
+  background-size: cover;
+  background-position: center;
+}
+
+.register-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(70, 241, 113, 0.1);
+  width: 320px;
+  text-align: center;
+  border: 2px solid #1e90ff; /* Blue border */
+}
+
+h2 {
+  color: rgb(26, 48, 75);
+  margin-bottom: 20px;
+}
+
+div h1{
+  /* padding: 100px; */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  color: rgb(66, 75, 83);
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #1e90ff;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(109, 124, 137); /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: rgb(34, 61, 81); /* Hover color */
+}
+
+.wel{
+  color: aliceblue;
+}
+
